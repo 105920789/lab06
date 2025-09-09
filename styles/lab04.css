@@ -1,0 +1,95 @@
+/*
+filename: [Lab04]
+author: [Shaun Vambe]
+created: [28/08/2025]
+last modified: [28/08/2025]
+description: [html files it refers to lab04.html]
+*/
+
+/*
+Applied dark blueish gray(#2F4F4F) color to all elements
+*/
+*{ color: #2F4F4F;}
+
+/*
+Applied purple color, 2em font-size and bold font-weight to h1 elements inside body
+*/
+body h1{ color:purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+/*
+Applied font-family to all elements
+*/
+*{ font-family: calibri, sans-serif; }
+
+/*
+Applied styles to header nav a elements
+*/
+header nav a{
+    text-decoration:none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+    color: #2F4F4F;}
+
+/*
+Applied styles to article h2 elements color rgb(0,128,128), bold font-weight and 1.5em font-size
+*/
+article h2{
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/*
+Applied italic font-style to aside and footer elements
+*/
+ aside, footer { font-style: italic; }  
+
+ /*
+Applied font-family to all h1, h2 and h3 elements
+*/
+ h1,h2,h3 {
+    font-family: arial, sans-serif;
+}
+
+/* Added border to table, td and th elements */
+table,td,th{border: 1px solid black;}
+
+/*
+Centered all h2 elements
+*/
+h2{
+    text-align : center;
+}
+
+/*
+Added special class to style specific text elements
+*/
+.special {
+   color: darkgreen;
+    font-weight: bold;
+}
+
+/*
+Added right-align class to align text to the right
+*/
+.right-align {
+    text-align: right
+}
+
+/*
+Added hover effect to aside element to hide it when hovered over
+*/
+aside:hover {
+    display: none;
+    border-color: darkblue;
+    background-color: lightblue;
+}
+
+/*
+Changed from circle to square
+*/
+ol ul{
+    list-style-type: square;
+}
+
