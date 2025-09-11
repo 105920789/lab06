@@ -1,17 +1,21 @@
 /*
-filename: [Lab05]
+filename: [Lab06]
 author: [Shaun Vambe]
-created: [04/09/2025]
-last modified: [05/09/2025]
+created: [10/09/2025]
+last modified: [11/09/2025]
 description: [html files it refers to lab05.html]
 */
 
+/*Changed display property to block for aside on hover, so that the aside is shown when hovered over */
 aside:hover{display:block;}
 
+/*Changed display property to inline-block for menu class, content shown in one line */
 .menu{display:inline-block;}
 
+/*Removed bullet points from navigation menu */
 nav ul{list-style-type:none;}
 
+/*Added padding to navigation menu items for better spacing */
 aside {
     border: 4px inset purple;
     border-radius: 14px;
@@ -23,6 +27,7 @@ aside {
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
+/*Changed format of the header to a mpre striking look */
 header{
     border: 1px darkgray solid;
     border-radius: 14px;
@@ -32,52 +37,66 @@ header{
     text-align: center;
 }
 
+/*Added border to footer for better separation */
 footer{
     border-top: 4px double;
 }
 
+/*Lists section made to stand in the left of the page */
 section#lists{
     float: left;
 }
 
+/*Centered the table on the page */
 table{
     margin: auto;
 }
 
+/*Tables section made to stand in the right of the page */
 section#tables{
     float: right;
 }
 
-section#hyperlinks{clear:right;}
-
+/*Cleared floats for hyperlinks section to avoid overlap */
 section#hyperlinks{clear:both;}
 
+/*Floated hyperlinks section to the left and cleared to avoid overlap */
 section#hyperlinks{clear:both;float:left;}
 
+/*Cleared floats for footer to avoid overlap */
 footer{clear:both;}
 
+/*Floated images section to the right and applied with a border */
 section#images{
     float:right;
     border:2px solid #ccc;
 }
 
+/*Set width and text alignment for sections */
 #lists, #images, #tables, #hyperlinks{
     width: 50%;
     text-align: center;
 }
 
+/*Set text alignment for ordered, unordered, and definition lists */
 ol,ul,dl{
     text-align: left;
 }
 
+/*Set minimum width for articles */
 article{min-width: 30em;}
 
+/*Styled footer paragraphs to be inline-block and aligned properly */
 footer p{
     display: inline-block;
     width: 33%;
 }
 
+/*Aligned first paragraph to the left */
 footer p:first-child{float: left;}
 
+/*Centered second paragraph */
 footer p:nth-child(2){text-align: center;}
+
+/*Aligned last paragraph to the right */
 footer p:last-child{float: right; text-align: right;}

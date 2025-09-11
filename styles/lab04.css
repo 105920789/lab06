@@ -62,9 +62,7 @@ h2{
     text-align : center;
 }
 
-/*
-Added special class to style specific text elements
-*/
+/*Added special class to style specific text elements*/ 
 .special {
    color: darkgreen;
     font-weight: bold;
