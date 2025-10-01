@@ -67,7 +67,10 @@ section#hyperlinks{clear:both;float:left;}
 footer{clear:both;}
 
 /*Floated images section to the right and applied with a border */
-section#images{
+section#images{float:right;}
+
+/*Floated figure elements to the right and applied with a border */
+figure {
     float:right;
     border:2px solid #ccc;
 }
